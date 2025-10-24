@@ -1,0 +1,13 @@
+# Zadanie 1
+z = input("Введите строку:")
+index = z.find("ра")
+if index == 0 :
+    print("Не найдено")
+else:
+    print(index)
+
+# Zadanie 2
+z = input("Введите числа: ")
+spisok = list(map(int, z.split()))
+summa = sum(spisok)
+print(summa)
